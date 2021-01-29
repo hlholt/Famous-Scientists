@@ -1,0 +1,167 @@
+
+
+body {
+    margin: 0;
+    color: darkblue;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(126, 214, 248);
+}
+
+.section {
+    
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+
+
+/* ****************************
+Typography
+***********************************/
+
+h1 {
+    font-family: 'Lora' serif;
+    font-weight: 700;
+    color: darkblue;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Lora' serif;
+    font-weight: 700;
+    color: darkblue;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792D2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+/* ****************************
+Layout
+***********************************/
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+
+
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+
+}
+
+.container-nav-a {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+
+
+.container-sec-nav1 {
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 20em;
+    padding-left: 28em;
+    }
+
+
+.container-sec-nav3 {
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 20em;
+    padding-left: 21em;
+}
+
+
+
+.img {
+    max-width: 100%;
+    display: block;
+}
+
+@media (max-width: 675px) {
+    .container-sec-nav1 {
+        flex-direction: column;
+    }
+   
+    .container-sec-nav3 {
+        flex-direction: column;
+    }
+    .container-nav {
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+}
+
+header {
+    
+    background: rgb(241, 235, 236);
+    padding: 2em 0;
+}
+
+
+/* navigation */
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    
+
+   }
+   
+   nav li {
+        margin-left: 2em;
+        
+   }
+   
+   nav a {
+       text-decoration: none;
+       color: darkblue;
+       font-weight: 700;
+       padding: .25em 0;
+   }
+   
+   nav a:hover,
+       nav a:focus {
+           color: #1792d2;
+       }
+   
+       .current-page {
+           color: red;
+           border-bottom: 1px solid #707070;
+       }
+       .current-page:hover {
+           color: #707070;
+       }
+   
+       @media (max-width: 675px) {
+           nav-ul {
+               flex-direction: column;
+           }
+           nav-li {
+               margin: .5em 0;
+           }
+       }
+   
