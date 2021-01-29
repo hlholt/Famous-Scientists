@@ -1,0 +1,142 @@
+html {
+    font-size: 12px;
+    background-color: cyan;
+  }
+  .head {
+    position: fixed;
+    font-size: 50px;
+  }
+  title {
+    color: blue;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    width: 95%;
+  
+  }
+  
+
+
+ .iframe {
+  display: grid;
+  justify-content: space-between;
+ 
+ 
+ }
+
+  .caption {
+    text-align: center;
+     width: 50%;
+  }
+  
+  main {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .body {
+    font-weight: 100;
+    background-color: rgb(111, 155, 153);
+  }
+  
+  .article {
+    display: flexbox;
+    justify-content: space-between;
+    padding-top: 5em;
+    padding-bottom: 3em;
+  }
+  
+  img {
+    position: relative;
+    padding-left: 20em;
+    width: 50%;
+    font-family: "Courier New", Courier, monospace;
+  }
+  h1 {
+    font-weight: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: blue;
+   /* background-color: rgb(111, 155, 153);*/
+    padding-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  a {
+    font-size: 18px;
+    padding-top: 1em;
+    padding-bottom: 10em;
+    padding-left: 5em;
+  }
+
+  @media (any-hover:hover){
+    a:hover { 
+    color: red;
+  }
+  }
+
+  p {
+    margin-left: 10em;
+    margin-right: 10em;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    color: black;
+    background-color: #ffebcd;
+  }
+  .figure {
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    padding-bottom: 5em;
+  }
+  #figcaption {
+    font-size: small;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    position: center;
+  }
+  #section {
+    font-size: small;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .ul {
+    text-align: left;
+    position: left;
+    
+    background-color: #ffebcd;
+  }
+  
+    
+  li {
+    background-color: #ffebcd;
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    text-align: left;
+   
+  }
+  .tribute-link {
+    
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
